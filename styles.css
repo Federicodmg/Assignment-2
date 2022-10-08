@@ -62,6 +62,13 @@ header {
     color: #F9FAF8;
     font-family: 'Roboto-black';
 }
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
 .link-text {
     font-size: 1.125rem;
     color: #E5E7EB;
@@ -86,7 +93,7 @@ header {
     padding-right: 10rem;
     display: inline-block;
 }
-main.w-60 {
+section.main-div {
     padding-block: 8em;
 }
 /* Image section */
@@ -161,6 +168,10 @@ figure {
 .cta-text {
     margin-left: .5rem;
 }
+
+section.cta-section aside {
+    margin-left: .5rem;
+}
 /* Footer */
 .copyright {
     text-align: center;
@@ -189,7 +200,7 @@ figure {
         display:flex;
         justify-content: space-between;
     }
-    .link-group {
+    ul {
         margin-block: 1em;
         display: flex;
         flex-direction: column;
@@ -201,7 +212,7 @@ figure {
         font-size: 1.125rem; 
         padding: 4rem;
     }
-    main.w-60 {
+    section.main-div {
         width: 60%;
     }
     .hero-main {
@@ -210,7 +221,7 @@ figure {
     .small-text {
         font-size: 1.5rem;
     }
-    main.w-60 {
+    section.main-div {
         padding-block: 3em;
     }
     /* Image section */
@@ -221,7 +232,7 @@ figure {
         max-width: 12.5rem;
         margin-bottom: .5rem;
     }
-    section div.w-40 {
+    section section.w-40 {
         display:flex;
         flex-wrap: wrap;
     }
@@ -235,7 +246,7 @@ figure {
         width: 80%;
     }
     /* CTA section */
-    section.w-60 {
+    section.cta-section {
         width: 80%;
     }
     .cta-button {
