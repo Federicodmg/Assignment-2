@@ -85,9 +85,10 @@ header {
     padding-block: 8rem;
     padding-left: 10rem;
     padding-right: 10rem;
+    display: inline-block;
 }
 main.w-60 {
-    padding-block: 8em
+    padding-block: 8em;
 }
 /* Image section */
 figure {
@@ -199,7 +200,7 @@ figure {
     .placeholder {
         margin-top: 1rem;
         font-size: 1.125rem; 
-        padding: 5rem;
+        padding: 4rem;
     }
     main.w-60 {
         width: 60%;
@@ -281,5 +282,17 @@ figure {
     }
     .small-text {
         font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .hero-main {
+        font-size: 1.8rem;
+    }
+    .placeholder {
+        padding: 2rem;
+    }
+    .section-info-title {
+        font-size: 1.4rem;
     }
 }
