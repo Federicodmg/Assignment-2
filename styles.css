@@ -218,7 +218,7 @@ figure {
         padding-block: 3em;
     }
     figure {
-        width: 12.5rem;
+        max-width: 12.5rem;
         margin-bottom: .5rem;
     }
     section div.w-40 {
