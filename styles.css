@@ -272,7 +272,8 @@ figure {
     .link-text {
         margin-left: 0;
     }
-    .hero-main {
+    /* Image section */
+    .section-info-title {
         font-size: 2rem;
     }
     /* Quote section */
